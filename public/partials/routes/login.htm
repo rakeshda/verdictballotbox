@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="row"><h2>Login for Voting Machine App</h2></div>
+    <hr/>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <form name="login" ng-submit="loginRequest()">
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" class="form-control" ng-model="email" />
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" class="form-control" ng-model="password" />
+                </div>
+
+                <input type="submit" class="btn btn-primary" value="Login" />  <a href="#/register">Register</a>
+                
+                <br /><br/>
+                <a class="btn btn-danger" ng-click="test()">Test</a>
+            </form>
+        </div>
+
+    </div>
+</div>
